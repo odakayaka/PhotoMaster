@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					676AE7C61D0A9625000335E8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ANA9J8UB49;
 					};
 					676AE7DA1D0A9626000335E8 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,10 +400,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odakaayaka.PhotoMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odakaayaka.PhotoMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +491,7 @@
 				676AE7F11D0A9626000335E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676AE7F21D0A9626000335E8 /* Build configuration list for PBXNativeTarget "PhotoMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +500,7 @@
 				676AE7F41D0A9626000335E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676AE7F51D0A9626000335E8 /* Build configuration list for PBXNativeTarget "PhotoMasterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +509,7 @@
 				676AE7F71D0A9626000335E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
